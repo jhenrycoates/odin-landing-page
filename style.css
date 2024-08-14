@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  .header h3 {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+
+  .header h3,
+  ul {
+    padding: 10px 200px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    position: fixed;
+    width: 100vw;
+}
