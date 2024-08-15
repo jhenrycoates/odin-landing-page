@@ -12,23 +12,20 @@
     flex-direction: column;
   }
 
-  ul {
+  .header ul {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 18px;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 10px 100px 0px 0px;
   }
 
   .header h3 {
     font-size: 24px;
     color: #f9faf8;
-  }
-
-  .header h3,
-  ul {
-    padding: 10px 200px;
+    padding: 10px 0 0 100px;
   }
 
   .header {
@@ -38,6 +35,7 @@
     background-color: #1f2937;
     /* position: fixed; */
     width: 100vw;
+    flex-shrink: 1;
 }
 
 .container1 {
@@ -49,6 +47,12 @@
     gap: 100px
 }
 
+.container1b {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .c1text {
     font-size: 48px;
     font-weight: 800;
@@ -56,6 +60,7 @@
 
 .c1text2 {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .signup {
@@ -70,6 +75,75 @@
 }
 
 .c1image {
-    width: 300px;
+    width: 250px;
     height: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2b {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 150px;
+  border-radius: 8px;
+}
+
+.c2text {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+
+.c2subtext {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+
+.c2images {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6
+}
+
+.container2 img {
+  border-radius: 8px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 300px
+}
+
+.container3b {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 500px;
+}
+
+.c3quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: light;
+}
+
+.c3author {
+  text-align: end;
+  font-weight: bold;
+  font-size: 24px;
 }
