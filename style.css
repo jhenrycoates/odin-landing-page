@@ -36,6 +36,40 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    position: fixed;
+    /* position: fixed; */
     width: 100vw;
+}
+
+.container1 {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+    padding: 100px;
+    gap: 100px
+}
+
+.c1text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.c1text2 {
+    font-size: 18px;
+}
+
+.signup {
+    margin-top: 8px;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+
+}
+
+.c1image {
+    width: 300px;
+    height: auto;
 }
