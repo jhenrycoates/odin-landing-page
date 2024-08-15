@@ -108,13 +108,15 @@
 .c2subtext {
   text-align: center;
   padding-bottom: 50px;
-  font-size: 18px;
+  font-size: 14px;
+  color: #40464d
 }
 
 .c2images {
   width: 150px;
   height: 150px;
-  border: 3px solid #3882f6
+  border: 3px solid #3882f6;
+  margin-bottom: 6px;
 }
 
 .container2 img {

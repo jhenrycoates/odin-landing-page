@@ -1,0 +1,3 @@
+I wanted to practice the flex features and be able to set up a layout primarily. I was unable to change the font quote font to lighter or a 300 font-weight which was a bit annoying. Searching around online it wasn't particularly clear which font-familys support lighter weight fonts and I eventually just chose to finish the assignment rather than get stuck looking around for that. 
+
+I'm unsure if the flex properties that were used were used appropriatly or if there were areas I could have incorporated them that I did not. I'm not fully confident on growing/shrinking functionality here. I didn't use flex: "xyz" once but I don't think it was needed? 
